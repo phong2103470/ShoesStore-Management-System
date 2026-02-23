@@ -14,7 +14,7 @@ namespace HTQL_Ban_Giay_Dep
         string path = AppDomain.CurrentDomain.BaseDirectory;
         public void KetNoi(SqlConnection conn)
         {
-            string chuoiketnoi = "Server = MSI\\CT281_BTNHOM; Database = CHQLGIAYDEP; Integrated Security = True";
+            string chuoiketnoi = "Server = MSI; Database = project; Integrated Security = True";
             conn.ConnectionString = chuoiketnoi;
             conn.Open();
         }
